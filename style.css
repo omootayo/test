@@ -1,0 +1,449 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+
+body{
+  padding: 6rem 6rem 2rem;
+  background-color:  rgba(237, 237, 245, 0.719);
+  font-weight: 400;
+  line-height: 1.6rem;
+  min-height: 100vh;
+}
+
+
+
+
+
+.h6{
+    color: navy;
+    font-size: 1.5rem;
+    margin-top: -5.5rem;
+}
+
+
+/*Table*/
+.heading{
+  margin-top: -1.8rem;
+  margin-left: -1.8rem;
+  font-size: 1rem;
+
+
+}
+
+
+
+.tablelist{
+  list-style: none;
+  display: inline-block;
+  padding: 0 2.9rem 0 0;
+}
+
+
+
+
+
+.tablelist2{
+  list-style: none;
+  float: right;
+}
+
+.tablelink{
+   text-decoration: none;
+   color: rgb(49, 49, 206);
+}
+
+.tablelink:visited{
+   color: navy;
+}
+
+.tabletotal{
+  color: rgb(49, 49, 206);
+}
+
+strong{
+  font-weight: bolder;
+  color: navy;
+}
+
+hr{
+  margin-top: -1rem;
+  height: 0;
+  border: 1px groove rgba(164, 164, 233, 0.219);
+} 
+
+hr:visited,
+hr:active{
+  width: 2rem;
+  color: navy;
+
+}
+
+
+/*Container*/
+.container{
+    background-color: white;
+    max-width: 110rem;
+    min-height: 20rem;
+    border-radius: .5rem;
+    color:rgb(49, 49, 206);
+    margin-top: 1.1rem;
+    box-shadow:  0 2rem 2rem rgb(1, 2, 3, 0.1);
+}
+
+.header{
+  font-size: 1.2rem;
+  border-bottom: 1px groove rgba(164, 164, 233, 0.219);
+  height: 5rem;
+  display: flex
+}
+
+.logo{
+  justify-content: center;
+  
+}
+
+
+.logo-icon{
+  height: 1.8rem;
+  width: 1.3rem;
+  margin-top: -.2rem;
+  margin-left: -3rem;
+  text-align: center;
+  fill: rgba(71, 71, 175, 0.61);
+}
+
+.logo-btn{
+  margin-left: 1.3rem;
+  margin-top: 1rem;
+  padding: .1rem;
+  width: 6rem;
+  height: 2.8rem;
+  border-radius: .5rem;
+  align-items: center;
+  border: 1px groove rgba(49, 49, 206, 0.349);
+  background-color: white;
+}
+
+.logo-link{
+  text-decoration: none;
+  
+}
+
+.filter{
+  font-size: 1rem;  
+  margin-top: -1.5rem;
+  margin-right: -1.2rem;
+}
+
+.filter-link{
+  text-decoration: none;
+}
+
+.filterspan{
+  text-align: center;
+}
+
+.search{
+  display: flex;  
+  margin-left: -.5rem;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 50%;
+  border: none;
+  
+}
+
+.search-bar{
+  flex: .6;
+  border: none;
+  background-color: rgba(237, 237, 245, 0.596);
+  height: 1.8rem;
+  width: 2rem;
+  border-radius:.3rem;
+  font-size: .8rem;
+  font-family: inherit;
+  margin-left: -6rem;
+  padding: .4rem;
+  color: navy;
+
+}
+
+.search-bar:focus{
+  outline: none;
+}
+
+.search-button{
+  border: none;
+  background: none;
+}
+
+.search-button:focus{
+  outline: none;
+}
+
+.search-icon{
+  height: 1.6rem;
+  width: 1.8rem;
+  fill: rgba(71, 71, 175, 0.61);
+  margin-left: -48rem;
+}
+
+input[type="text"]::placeholder{
+  padding-left: 2rem;
+  color:  rgba(71, 71, 104, 0.61);
+}
+
+.paydues{
+  margin-left: 21.2rem;
+ justify-content: center;
+ margin-top: 1.2rem;
+}
+
+.pay-btn{
+  height: 2.4rem;
+  width: 6rem;
+  background-color: rgba(71, 71, 175, 0.781);
+  border: none;
+  border-radius: .4rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  list-style: none;
+}
+
+.pay-dues{
+  color: white;
+  
+}
+
+.paylink{
+  text-decoration: none;
+}
+
+.pay-btn:focus{
+  outline: none;
+}
+
+/****first row*****/
+
+
+.user-nav{
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 4rem;
+  border-bottom: 1px groove rgba(164, 164, 233, 0.219);
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   
+}
+
+.username{
+  padding: .5rem;
+  margin: .5rem;
+  color: navy;
+  font-size: .9rem;
+}
+
+.dots-user:not(:first-child){
+  margin: -6rem;
+}
+
+.dots-user{
+  margin-left: -8rem;
+ 
+}
+
+.dots-icon{
+  height: 1rem;
+  font-weight: 1rem;
+  fill: navy;
+  margin-left: -5rem;
+  margin-bottom: -7rem;
+}
+
+/*****2nd row****/
+.user{
+  background-color: white;
+  font-weight: 600;
+  height: 5rem;
+  border-bottom: 1px groove rgba(164, 164, 233, 0.219);
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.user:not(:last-child){
+  margin-left: .1rem;
+}
+
+.user-status{
+  padding: .7rem;
+  margin: .6rem;
+  color: navy;
+  font-size: .9rem;
+}
+
+
+.circle-icon{
+  height: 1rem;
+  font-weight: 1rem;
+  fill: navy;
+  margin-left: -10rem;
+}
+
+.check{
+  margin-left: 1rem;
+}
+
+.name-status:not(:last-child){
+  margin-left: -5rem;
+}
+
+.view-status{
+  padding: none;
+}
+
+.inactive-btn{
+  list-style: none;
+  background-color: rgba(158, 158, 202, 0.644);
+  height: 1.6rem;
+  width: 5rem;
+  border-radius: .8rem;
+  border: none;
+  
+  
+}
+
+.inactive-link{
+  text-decoration: none;
+  color: navy;
+}
+
+.active-btn{
+  list-style: none;
+  background-color: rgba(150, 150, 182, 0.616);
+  height: 1.6rem;
+  width: 5rem;
+  border-radius: .8rem;
+  border: none;
+  
+  
+}
+
+.active-link{
+  text-decoration: none;
+  color: blue;
+}
+
+.overdue-btn{
+  list-style: none;
+  background-color: rgb(219, 155, 155);
+  height: 1.6rem;
+  width: 5rem;
+  border-radius: .8rem;
+  border: none;
+  
+}
+
+.overdue-link{
+  text-decoration: none;
+  color: red;
+}
+
+.paid-btn{
+  background-color: rgba(182, 230, 182, 0.733);
+  height: 1.6rem;
+  width: 5rem;
+  border-radius: .8rem;
+  border: none;
+  list-style: none;
+}
+
+.paid-link{
+  color: green;
+  text-decoration: none;
+}
+
+.unpaid-btn{
+  background-color: lightsalmon;
+  height: 1.6rem;
+  width: 5rem;
+  border-radius: .8rem;
+  border: none;
+  list-style: none;
+}
+
+.unpaid-link{
+  text-decoration: none;
+  color: brown;
+}
+
+.block{
+  display: block;
+}
+
+
+.user-next{
+  margin-left: 8rem;
+}
+
+.footer{
+  display: flex;
+  background-color: rgba(237, 237, 245, 0.719);
+  padding-left: 40rem;
+  color: navy;
+}
+
+.footer-row{
+  margin-left: .5rem;
+}
+
+.footer-page{
+  margin-left: 11rem;
+}
+
+.left-icon{
+  height: 1rem;
+  width: 1rem;
+  fill: navy;
+}
+
+.left-user{
+  margin-left: 9rem;
+  margin-top: 1rem;
+}
+
+.right-user{
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+
+
+.right-icon{
+  height: 1rem;
+  width: 1rem;
+  fill: navy;
+}
+
+.triangle-icon{
+  height: 1rem;
+  width: 1rem;
+  fill: navy;
+  padding-top: 7.3rem;
+  padding-left: 6.2rem;
+}
+.triangle-user{
+  margin-top: -3rem;
+}
